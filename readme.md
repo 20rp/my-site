@@ -17,3 +17,4 @@ This site is used for showcasing pieces of work that I have done along any profe
   - Express (maybe)
   - Vite
   - NodeJS
+  - NX
