@@ -1,18 +1,89 @@
 * {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px auto;
 }
 
-body {
-  background-color: #6735f2;
+body,
+html {
+  height: 100%;
+  background-color: #342d40;
 }
 
 .heading {
   width: 100%;
 }
 
-.containers {
-  border: 1px solid red;
-  width: 70%;
-  height: 80%;
-  display: inline-flexbox;
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  position: relative;
+  top: 12px;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a :hover {
+  background-color: gray;
+}
+
+h1,
+h2 {
+  display: grid;
+  position: absolute;
+  left: 16px;
+  color: rgb(232, 232, 232);
+}
+
+h1 {
+  font-size: 40px;
+  top: 80px;
+}
+
+h2 {
+  font-size: 30px;
+  left: 30px;
+  top: 140px;
+}
+
+.horizontal {
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 3rem;
+  background-image: linear-gradient(
+    rgba(73, 13, 122, 0.905),
+    rgba(0, 0, 0, 0.287)
+  );
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/cover-image.jpg");
+  top: -20px;
+  height: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contact {
+  position: absolute;
+  top: -2px;
+  right: 0px;
 }
