@@ -1,0 +1,12 @@
+* {
+  margin: 0px auto;
+}
+
+body {
+  background-color: #6735f2;
+}
+
+.heading {
+  display: flexbox;
+  width: 100%;
+}
