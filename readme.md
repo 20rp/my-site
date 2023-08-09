@@ -11,10 +11,9 @@ This site is used for showcasing pieces of work that I have done along any profe
   - Modern css style framework implementation
 
 - Site technologies
-  - HTML via PUG
+  - HTML
   - CSS
   - JavaScript
   - Express (maybe)
   - Vite
   - NodeJS
-  - NX
