@@ -1,6 +1,5 @@
 <!-- 
   TODO:
-    - add stylesheets
     - centre elements
     - add responsive design
     - divide into sections with divs
@@ -23,13 +22,45 @@
         <li class="heading"><a href="/pages/work.html">Work</a></li>
         <li class="heading"><a href="/pages/interests.html">Interests</a></li>
         <li>
-          <a href="#" id="contact-button">Get in touch</a>
+          <a
+            href="#"
+            id="contact-button"
+            onclick="document.getElementById('contact-form').style.display = 'block'"
+            >Get in touch</a
+          >
         </li>
         <script src="scripts.js"></script>
       </ul>
       <div class="hero-text">
         <h1>Professional Portfolio</h1>
         <h2>Arlo Wotherspoon</h2>
+      </div>
+      <div class="container" id="container">
+        <form class="" action="">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+          <input type="submit" value="Submit" />
+          <a href="" id="cancel-button">Cancel</a>
+        </form>
       </div>
     </div>
   </body>

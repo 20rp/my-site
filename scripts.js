@@ -1,6 +1,7 @@
 const contact = document.getElementById("contact-button");
-contact.addEventListener("click", myAlert);
+contact.addEventListener("click", toggleContact);
 
-function myAlert() {
-  alert("Yesssss");
+function toggleContact() {
+  const contactForm = document.getElementById("container");
+  contactForm.style.display = "block";
 }
